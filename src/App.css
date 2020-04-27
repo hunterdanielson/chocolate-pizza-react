@@ -48,11 +48,40 @@ li.crossed {
 }
 
 #footer {
-  position: absolute;
+  position: relative;
   top: 300px;
   text-align: center;
 }
 
 #bottom-text {
   color: lightgray;
+}
+.App {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  height: 75px;
+  width: 75px;
+}
+
+#delicious {
+  font-size: 30px;
+}
+
+#header-right {
+  margin-left: 50%;
+}
+
+#rss {
+  margin-left: 10px;
 }
