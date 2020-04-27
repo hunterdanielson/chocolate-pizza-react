@@ -8,6 +8,7 @@ import flicIcon from './lab-assets/flic-icon.png';
 import pintIcon from './lab-assets/pint-icon.png';
 import rssIcon from './lab-assets/rss-icon.png';
 import emailIcon from './lab-assets/mail-icon.png';
+import bar from './lab-assets/bar.png'
 
 
 export default class Header extends Component {
