@@ -1,3 +1,61 @@
+
+#recipe-note {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url('lab-assets/list-bg.png');
+  background-repeat: repeat-y;
+  background-size: 1200px 300px;
+}
+
+ul {
+  list-style: none;
+}
+
+li:before{
+  content: "\2610";
+  margin-right:5px;
+}
+
+li.crossed:before {
+  content: "\2611";
+  margin-right:5px;
+}
+
+li.crossed {
+  text-decoration: line-through;
+}
+
+#van-pic {
+  float: left;
+  padding: 10px;
+}
+
+#van-info {
+  float: left;
+  color: darkslategray;
+  width: 50%;
+}
+
+#share-button {
+  float: left;
+  background-color: #d9734e;
+  border: none;
+  color: white;
+  padding: 15px 32px ;
+  font-size: 14pt;
+  text-align: center;
+ 
+}
+
+#footer {
+  position: relative;
+  top: 300px;
+  text-align: center;
+}
+
+#bottom-text {
+  color: lightgray;
+}
 .App {
   width: 80%;
   margin: auto;
