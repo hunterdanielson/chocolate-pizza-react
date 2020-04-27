@@ -1,25 +1,37 @@
 import React, { Component } from 'react'
+import logo from './lab-assets/logo.png';
+import fbIcon from './lab-assets/fb-icon.png';
+import twitIcon from './lab-assets/twit-icon.png';
+import gpIcon from './lab-assets/gp-icon.png';
+import instaIcon from './lab-assets/insta-icon.png';
+import flicIcon from './lab-assets/flic-icon.png';
+import pintIcon from './lab-assets/pint-icon.png';
+import rssIcon from './lab-assets/rss-icon.png';
+import emailIcon from './lab-assets/mail-icon.png';
+
 
 export default class Header extends Component {
     render() {
         return (
         <header>
-        <div>
-            <img src='../lab-assets/logo.png'/>
-            <h1>Delicious</h1>
-            <h2>THE BEST FOOD BLOG ON THE WEB</h2>
-        </div>
-        <div id='header-right'>
-            <img src='../lab-assets/fb-icon.png' id='fb-icon'/>
-            <img src='../lab-assets/twit-icon.png' id='twit-icon'/>
-            <img src='../lab-assets/gp-icon.png' id='gp-icon'/>
-            <img src='../lab-assets/insta-icon.png' id='insta-icon'/>
-            <img src='../lab-assets/flic-img.png' id='flic-img'/>
-            <img src='../lab-assets/pint-icon.png' id='pint-icon'/>
-            <img src='../lab-assets/rss-icon.png' id='rss-icon'/>
-            <img src='../lab-assets/mail-icon.png' id='mail-icon'/>
-        </div>
-    </header>
+            <div/>
+                <img src={logo} alt='Company logo' id='logo'/>
+                <div id='companyTitle'>
+                <span id='delicious'>Delicious</span>
+                <br></br>
+                <span>THE BEST FOOD BLOG ON THE WEB</span>
+            </div>
+            <div id='header-right'>
+                <img src={fbIcon} alt='Facebook'/>
+                <img src={twitIcon} alt ='Twitter'/>
+                <img src={gpIcon} alt='Google Plus'/>
+                <img src={instaIcon} alt='Instagram'/>
+                <img src={flicIcon} alt='Flic'/>
+                <img src={pintIcon} alt='Pinterest'/>
+                <img src={rssIcon} alt='RSS' id='rss'/>
+                <img src={emailIcon} alt='Email'/>
+            </div>
+        </header>
            
         )
     }
