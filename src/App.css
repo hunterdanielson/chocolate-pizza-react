@@ -1,38 +1,58 @@
-.App {
+
+#recipe-note {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url('lab-assets/list-bg.png');
+  background-repeat: repeat-y;
+  background-size: 1200px 300px;
+}
+
+ul {
+  list-style: none;
+}
+
+li:before{
+  content: "\2610";
+  margin-right:5px;
+}
+
+li.crossed:before {
+  content: "\2611";
+  margin-right:5px;
+}
+
+li.crossed {
+  text-decoration: line-through;
+}
+
+#van-pic {
+  float: left;
+  padding: 10px;
+}
+
+#van-info {
+  float: left;
+  color: darkslategray;
+  width: 50%;
+}
+
+#share-button {
+  float: left;
+  background-color: #d9734e;
+  border: none;
+  color: white;
+  padding: 15px 32px ;
+  font-size: 14pt;
+  text-align: center;
+ 
+}
+
+#footer {
+  position: absolute;
+  top: 300px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#bottom-text {
+  color: lightgray;
 }

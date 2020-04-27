@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
+import bottomFork from './lab-assets/small-logo.png';
 
 export default class Footer extends Component {
     render() {
         return (
-            <div>
-                <div id="bottom-fork-icon"></div>
+            <div id="footer">
+                <img src={bottomFork} id="bottom-fork-icon" alt="fork icon" />
                 <div id="bottom-text">Delicious &copy; 2013 &middot; All Rights Reserved.
-                <br></br>
-                Proudly published with Ghost.
+                <br/>
+                <div>Proudly published with Ghost.</div>
                 </div>
             </div>
         )
