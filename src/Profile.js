@@ -6,7 +6,7 @@ export default class Profile extends Component {
         return (
             <div id="van-container">
                 <img src={vanPic} alt="van-pic" id="van-pic"/>
-                <h3>Vanessa Stevenson</h3>
+                <h3>{this.props.person}</h3>
                 <p id="van-info">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
                 <button id="share-button">Share Button</button>
                 <br/>
