@@ -8,6 +8,7 @@ import flicIcon from './lab-assets/flic-icon.png';
 import pintIcon from './lab-assets/pint-icon.png';
 import rssIcon from './lab-assets/rss-icon.png';
 import emailIcon from './lab-assets/mail-icon.png';
+import bar from './lab-assets/bar.png'
 
 
 export default class Header extends Component {
@@ -19,7 +20,7 @@ export default class Header extends Component {
                 <div id='companyTitle'>
                 <span id='delicious'>Delicious</span>
                 <br></br>
-                <span>THE BEST FOOD BLOG ON THE WEB</span>
+                <span id='subTitle'>THE BEST FOOD BLOG ON THE WEB</span>
             </div>
             <div id='header-right'>
                 <img src={fbIcon} alt='Facebook'/>

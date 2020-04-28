@@ -64,6 +64,7 @@ li.crossed {
   left: 48%;
   top: -50px;
 }
+
 .App {
   width: 80%;
   margin: auto;
@@ -84,12 +85,47 @@ header {
 
 #delicious {
   font-size: 30px;
+  font-family: 'Pacifico'
 }
 
 #header-right {
-  margin-left: 50%;
+  margin-left: 38%;
+  float: right;
 }
 
 #rss {
   margin-left: 10px;
 }
+
+
+.bar {
+  width: 100%;
+  margin-top: 30px;
+}
+
+main {
+  
+  width: 100%; 
+}
+
+.image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#subTitle {
+  font-family: 'Press Start 2P';
+  font-size: 10px; 
+}
+
+.description {
+  font-family: 'EB Garamond';
+  text-indent: 20px;
+}
+
+#title {
+  font-family: 'Poppins';
+  font-size: 30px;
+}
+
