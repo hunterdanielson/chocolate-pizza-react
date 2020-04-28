@@ -50,11 +50,19 @@ li.crossed {
 #footer {
   position: relative;
   top: 300px;
-  text-align: center;
 }
 
 #bottom-text {
   color: lightgray;
+  position: absolute;
+  left: 37%;
+  text-align: center;
+}
+
+#bottom-fork-icon {
+  position: absolute;
+  left: 48%;
+  top: -50px;
 }
 .App {
   width: 80%;

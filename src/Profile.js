@@ -9,7 +9,8 @@ export default class Profile extends Component {
                 <h3>Vanessa Stevenson</h3>
                 <p id="van-info">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
                 <button id="share-button">Share Button</button>
-            </div>
+                <br/>
+            </div> 
         )
     }
 }
