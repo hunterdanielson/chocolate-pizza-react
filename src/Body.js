@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Cake from './lab-assets/choco-pizza.png'
+
 
 export default class Body extends Component {
     render() {
@@ -7,9 +7,9 @@ export default class Body extends Component {
             <main>
                 <p>
                     <span id='title'>Chocolate Pizza</span><br/>
-                    <span id='date'>Posted On 15 Dec 2013 / Desserts</span>
+                    <span id='date'>Posted On: {this.props.date} / Desserts</span>
                 </p>
-                <img src={Cake} alt='Chocolate Pizza' class='image'/>
+                <img src={this.props.mainPhoto} alt='Chocolate Pizza' class='image'/>
                 <p class='description'>
                     For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and 
                     stir to dissolve. Ualve all of the figs and toss in the saucepan with water and lemon juice. 
