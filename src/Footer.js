@@ -6,9 +6,10 @@ export default class Footer extends Component {
         return (
             <div id="footer">
                 <img src={bottomFork} id="bottom-fork-icon" alt="fork icon" />
+                <br/>
                 <div id="bottom-text">Delicious &copy; 2013 &middot; All Rights Reserved.
                 <br/>
-                <div>Proudly published with Ghost.</div>
+                Proudly published with Ghost.
                 </div>
             </div>
         )
