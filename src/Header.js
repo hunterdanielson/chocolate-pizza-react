@@ -20,7 +20,7 @@ export default class Header extends Component {
                 <div id='companyTitle'>
                 <span id='delicious'>Delicious</span>
                 <br></br>
-                <span>THE BEST FOOD BLOG ON THE WEB</span>
+                <span id='subTitle'>THE BEST FOOD BLOG ON THE WEB</span>
             </div>
             <div id='header-right'>
                 <img src={fbIcon} alt='Facebook'/>
