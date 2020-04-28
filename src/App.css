@@ -1,4 +1,70 @@
 
+#recipe-note {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url('lab-assets/list-bg.png');
+  background-repeat: repeat-y;
+  background-size: 1200px 300px;
+}
+
+ul {
+  list-style: none;
+}
+
+li:before{
+  content: "\2610";
+  margin-right:5px;
+}
+
+li.crossed:before {
+  content: "\2611";
+  margin-right:5px;
+}
+
+li.crossed {
+  text-decoration: line-through;
+}
+
+#van-pic {
+  float: left;
+  padding: 10px;
+}
+
+#van-info {
+  float: left;
+  color: darkslategray;
+  width: 50%;
+}
+
+#share-button {
+  float: left;
+  background-color: #d9734e;
+  border: none;
+  color: white;
+  padding: 15px 32px ;
+  font-size: 14pt;
+  text-align: center;
+ 
+}
+
+#footer {
+  position: relative;
+  top: 300px;
+}
+
+#bottom-text {
+  color: lightgray;
+  position: absolute;
+  left: 37%;
+  text-align: center;
+}
+
+#bottom-fork-icon {
+  position: absolute;
+  left: 48%;
+  top: -50px;
+}
+
 .App {
   width: 80%;
   margin: auto;
@@ -31,6 +97,7 @@ header {
   margin-left: 10px;
 }
 
+
 .bar {
   width: 100%;
   margin-top: 30px;
@@ -61,3 +128,4 @@ main {
   font-family: 'Poppins';
   font-size: 30px;
 }
+
